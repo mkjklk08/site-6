@@ -1,0 +1,105 @@
+.main_page, .thanksful {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #141518;
+    font-family: "Overpass", sans-serif;
+}
+
+.main_page .container {
+    background-color: #232933;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 45px 110px 60px 50px;
+    padding: 25px;
+}
+
+.main_page .container .header_icon img {
+    padding: 13px;
+    background-color: #262e38;
+    border-radius: 50px;
+    width: 15px;
+}
+
+.main_page .container .header_title h2{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+
+.main_page .container .header_title p {
+    color: hsl(217, 12%, 63%);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.main_page .container .main_bd {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_page .container .main_bd p{
+    border-radius: 50px;
+    color: white;
+    border: 2px solid  #262e38;
+    font-size: 13px;
+    background-color: #262e38;
+    margin-right: 20px;
+    padding: 15px 17px 25px 17px;
+}
+
+.main_page .container .main_bd .number_5{
+    border-radius: 50px;
+    color: white;
+    border: 2px solid  #262e38;
+    font-size: 13px;
+    background-color: #262e38;
+    margin-right: 0px;
+    padding: 15px 17px 25px 17px;
+}
+
+.main_page .container .footer_button button {
+    background-color: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    width: 310px;
+    height: 35px;
+    margin-top: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.main_page a {
+    text-decoration: none;
+    color: black;
+}
+
+.thanksful .container {
+    background-color: #232933;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 140px 40px 130px;
+    padding: 40px 25px 25px 25px;
+    text-align: center;
+}
+
+.thanksful .container .title_choice p {
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    border: 1px solid #262e38;
+    display: inline;
+    padding: 5px 20px;
+    background-color: #262e38;
+    border-radius: 50px;
+}
+
+.thanksful .container .header h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+.thanksful .container .header p {
+    color:  hsl(217, 12%, 63%);
+    font-size: 13px;
+    display: inline;
+}
